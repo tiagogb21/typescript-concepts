@@ -16,3 +16,22 @@
         "admin": "abc" // retorna erro, por que espera que o valor seja um number
     }
 ```
+
+```js
+interface User {
+    name: string;
+    email: string;
+}
+
+// construindo um objeto do tipo User
+const users: Record<number, User> = {
+    1: {
+        name: 'john doe',
+        email: 'johndoe@example.com',
+    },
+    2: {
+        name: 'jane doe',
+        email: 'janedoe@example.com',
+    }
+}
+```
