@@ -19,3 +19,17 @@
 ## Objetivo:
 
 * Melhorar o carregamento da página
+
+## Gráfico de Dependências:
+
+* Passos:
+
+    1. Resolução de Dependências: Gera um mapa de relacionamento de todos os arquivos servidos.
+
+    2. Requer um arquivo de entrada (geralmente, o arquivo principal).
+
+    3. Analisa o arquivo de entrada, para entender suas dependências.
+
+    4. Faz uma relação das dependências e de suas subdependências.
+
+    5. Packing: Entrega ativos estáticos - integra os vários arquivos de código em um único.
