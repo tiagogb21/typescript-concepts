@@ -103,3 +103,31 @@
     ```
 
 ## Diferenças filosóficas
+
+* interface:
+
+    - É mais orientada à estrutura de objetos e classes, ideal para extensões de objetos, definindo contratos claros entre diferentes partes do código.
+
+* type:
+
+    - É mais flexível e usado quando queremos criar tipos complexos e combinações de tipos (uniões, interseções), além de ser mais adequado para cenários em que não há necessidade de mesclar ou estender.
+
+## Quando Usar o quê?
+
+* Use interface:
+
+    - Quando estamos lidando principalmente com a definição de objetos, classes ou contratos entre diferentes partes do código.
+
+    - Se precisarmos de herança ou extensão entre interfaces.
+
+* Use type:
+
+    - Quando precisamos de mais flexibilidade, como trabalhar com tipos primitivos, uniões, tuplas ou interseções.
+
+    - Quando desejamos criar alias para tipos complexos.
+
+## resumo
+
+* interface é melhor quando você deseja definir formas de objetos com extensibilidade e contratos claros
+
+* type é mais flexível e útil para manipular diferentes tipos e combinações de tipos complexos.
