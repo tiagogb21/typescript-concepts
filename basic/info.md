@@ -6,9 +6,9 @@
 
     2. Ambiente de execução
 
-    - Node (backend) - ambiente de execução
+        - Node (backend) - ambiente de execução
 
-    - Browser (frontend)
+        - Browser (frontend)
 
 * Como o JS faz requisições:
 
